@@ -17,9 +17,9 @@ public class Main {
                 avg+=array[i];
                 n++;
             }
-
         }
-        System.out.println(sum+" "+avg/n);
+        double result=avg/n;
+        System.out.println(sum+" "+Math.round(result*10)/10.0);
 
 
     }
