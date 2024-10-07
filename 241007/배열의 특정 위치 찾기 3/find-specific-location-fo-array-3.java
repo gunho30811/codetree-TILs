@@ -5,7 +5,7 @@ public class Main {
 
         Scanner sc=new Scanner(System.in);
         int [] array=new int[100];
-        int sum=0;
+        long sum=0;
 
         for(int i=0;i<100;i++){
             if(array[i]==0&&i>=3){
