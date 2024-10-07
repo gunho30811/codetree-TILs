@@ -6,20 +6,20 @@ public class Main {
         int sum=0;
         int n=0;
         double avg=0;
-        int [] array=new int[10];
+        int [] array=new int[13];
         for(int i=0;i<10;i++){
             array[i]=sc.nextInt();
+
             if((i+1)%2==0){
-            sum+=array[i];
+                sum+=array[i];
             }
-            else if((i+1)%3==0){
-            avg+=array[i];
-            n++;
+            if((i+1)%3==0){
+                avg+=array[i];
+                n++;
             }
 
         }
-        avg=avg/n;
-        System.out.println(sum+" "+avg);
+        System.out.println(sum+" "+avg/n);
 
 
     }
